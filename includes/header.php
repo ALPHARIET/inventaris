@@ -77,7 +77,7 @@
                         <span><?= htmlspecialchars($_SESSION['nama'] ?? 'Guest') ?></span>
                         <span class="px-2 py-0.5 bg-army-light/20 text-army-dark rounded-full text-xs font-medium"><?= $_SESSION['role'] ?? '' ?></span>
                     </div>
-                    <a href="../logout.php" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-army hover:bg-army-dark focus:outline-none transition duration-150 ease-in-out">
+                    <a href="/inventaris/logout.php" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-army hover:bg-army-dark focus:outline-none transition duration-150 ease-in-out">
                         <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
                         Logout
                     </a>
